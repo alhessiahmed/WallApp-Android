@@ -1,6 +1,5 @@
 package com.example.dndoonwallpaper.adapters;
 
-import android.app.Activity;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
@@ -17,7 +16,6 @@ import com.bumptech.glide.request.RequestOptions;
 import com.example.dndoonwallpaper.R;
 import com.example.dndoonwallpaper.model.Wallpaper;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class WallpaperAdapter extends RecyclerView.Adapter<WallpaperAdapter.WallpaperHolder> {
@@ -38,7 +36,7 @@ public class WallpaperAdapter extends RecyclerView.Adapter<WallpaperAdapter.Wall
     @NonNull
     @Override
     public WallpaperHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int position) {
-        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.wallpaper_item, viewGroup, false);
+        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_wallpaper, viewGroup, false);
         return new WallpaperHolder(view);
     }
 

@@ -71,13 +71,10 @@ public class FirstViewPagerFragment extends Fragment {
     private void fakeData(){
         wallpapers.clear();
         wallpapers.add(new Wallpaper("https://images.unsplash.com/photo-1564498886748-bf757f36f4d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","","Ahmed","Salah"));
-        wallpapers.add(new Wallpaper("https://images.unsplash.com/photo-1564498886748-bf757f36f4d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","","Ahmed","Salah"));
-        wallpapers.add(new Wallpaper("https://images.unsplash.com/photo-1564498886748-bf757f36f4d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","","Ahmed","Salah"));
-        wallpapers.add(new Wallpaper("https://images.unsplash.com/photo-1564498886748-bf757f36f4d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","","Ahmed","Salah"));
-        wallpapers.add(new Wallpaper("https://images.unsplash.com/photo-1564498886748-bf757f36f4d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","","Ahmed","Salah"));
-        wallpapers.add(new Wallpaper("https://images.unsplash.com/photo-1564498886748-bf757f36f4d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","","Ahmed","Salah"));
-        wallpapers.add(new Wallpaper("https://images.unsplash.com/photo-1564498886748-bf757f36f4d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","","Ahmed","Salah"));
-        wallpapers.add(new Wallpaper("https://images.unsplash.com/photo-1564498886748-bf757f36f4d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60","","Ahmed","Salah"));
-
+        wallpapers.add(new Wallpaper("https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260","","Ahmed","Salah"));
+        wallpapers.add(new Wallpaper("https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","","Ahmed","Salah"));
+        wallpapers.add(new Wallpaper("https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","","Ahmed","Salah"));
+        wallpapers.add(new Wallpaper("https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","","Ahmed","Salah"));
+        wallpapers.add(new Wallpaper("https://images.pexels.com/photos/37319/underwear-beauty-model-western-model-offered.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","","Ahmed","Salah"));
     }
 }
